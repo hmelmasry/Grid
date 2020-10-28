@@ -1,0 +1,181 @@
+*{
+background:#FEF1F2;
+}
+header{
+  border: 5px solid #F5E3E3;
+  font-style:normal;
+  font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+  "Segoe UI", "Roboto", "Oxygen", 
+  "Ubuntu", "Cantarell", "Fira Sans", 
+  "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight:bold;
+  font-size: 14px;  
+}
+h1 {
+   color:#663753;
+  font-size: 50px;
+  font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+  "Segoe UI", "Roboto", "Oxygen", 
+  "Ubuntu", "Cantarell", "Fira Sans", 
+  "Droid Sans", "Helvetica Neue", sans-serif;
+}
+@media max-width: 1000px) {
+  h1{
+    font-size 50px;
+  }
+  h2{
+    font-size: 30px;
+  }
+}
+
+h2{
+  color: #663753;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+h3 {
+  color:#734B75;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  font-style: normal;
+  font-weight:normal;
+  font-size: 18px;
+}
+p{
+  padding: 2px 2px 2px 2px;
+  margin: 10px;
+  font-style: normal;
+  font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+  "Segoe UI", "Roboto", "Oxygen", 
+  "Ubuntu", "Cantarell", "Fira Sans", 
+  "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  display: block;  
+}
+img{
+  float: center;
+  margin: 10px;
+  position: relative;
+}
+  
+li{
+  font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+  "Segoe UI", "Roboto", "Oxygen", 
+  "Ubuntu", "Cantarell", "Fira Sans", 
+  "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+nav ul {                             
+	text-align: left;
+	list-style: none;	
+	}
+nav ul li {                                
+		font: lighter 16px/20px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
+		display:inline-block;                  
+		position: relative;               
+		padding: 20px 30px ;           
+		background:#F5E3E3;              
+	}
+nav ul li:hover {            
+		background:#D9C1C1;           
+		color:#663753;                     
+}
+nav ul li ul {
+  padding: 0; 			
+  position: absolute;
+  top: 60px;
+	left: -10000px;
+	width: 132px; 
+}
+nav ul li ul li { 
+	background:#663753;
+	display: block;  		
+	color: #F0DADA; 	
+}
+nav ul li ul li:hover { background: #F0DADA; }
+		 
+nav ul li:hover ul {
+	display: block; 
+	left:0px;
+}
+a :hover{ 
+  background: #F0DADA;
+		 }	
+.content-wrap{
+    max-width: 700px;
+    width 75%;
+    margin: auto;
+    padding: 60px 0;
+  }
+.container-list{
+  list-style-type: none;
+  padding: 0;
+}
+.container-list a{
+  padding: 15px;
+  display: inline-block;
+}
+h3{
+  margin-bottom: 0;
+}
+h3 + p {
+  font-style: italic;
+}
+h3 ~ p {
+  margin: 1;
+}
+/*Responsive
+------------------------------------*/
+@media screen and (min-width: 750px){ header, footer { 
+  text-align: center;
+}
+.contact-list {
+display: flex;
+  justify-content: center;
+}
+
+
+/*Work Experience
+------------------------------------*/
+.work-experience { 
+  background: silver;
+}
+.job-item{
+  display:grid;
+  grid-template-columns: 150px repeat(1, 1fr);
+  grid-column-gap: 5px;
+  background-color: #663753;
+  height: 100%;
+}
+.job-summary{
+    font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+      "Segoe UI", "Roboto", "Oxygen", 
+      "Ubuntu", "Cantarell", "Fira Sans", 
+      "Droid Sans", "Helvetica Neue", sans-serif;
+    color: rgb(47, 18, 58)
+    display: flex;
+  }
+  .job-details{
+    font-family: lighter 'Output Sans', -apple-system, BlinkMacSystemFont, 
+      "Segoe UI", "Roboto", "Oxygen", 
+      "Ubuntu", "Cantarell", "Fira Sans", 
+      "Droid Sans", "Helvetica Neue", sans-serif;
+      color: solid black;  
+    display: flex;
+  }
+  /*Education
+------------------------------------*/...education {
+  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-size: cover;
+  background-position: top right ;
+  padding-bottom: 100px;
+}
+.education p {
+  width: 65%;
+}
+
+footer{
+  background: #F5E3E3;
+  color: #663753;
+  text-align: center;
+}
